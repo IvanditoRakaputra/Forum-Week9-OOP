@@ -133,7 +133,7 @@ public class Sales {
 
 ```
 
-- Accessor methods or getter setter is necessary because it provide controlled access to the private fields (variables) of a class. 
+- Accessor methods is necessary because it provide controlled access to the private fields (variables) of a class. 
 
 ### (c) (i) Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and Sales classes.
 
