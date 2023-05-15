@@ -22,7 +22,7 @@ The different modules in the program each open a graphical user interface (GUI).
 
 ### 2. The company employs several sales personnel to sell its products to different retailers. Each branch of the company keeps track of its own sales with a suite of programs that include the two classes SalesPerson and Sales.
 
-''' 
+```
 
 public class SalesPerson {
 
@@ -90,11 +90,53 @@ public Sales largestSale(){
 
 }
 
-'''
+```
 
 Each instance variable is initialized when a SalesPerson object is instantiated.
 
 ### (a) Complete the constructor public SalesPerson(String id), from the SalesPerson class. (2 points)
 
+```
 
+... 
 
+ public SalesPerson(String id) {
+	this.id = id;
+	this.salesHistory = new Sales[100];
+    }
+    
+...
+
+```
+
+### (b) Explain why accessor methods are necessary for the SalesPerson class. (3 points)
+
+```
+
+public class Sales {
+
+    // each object contains details of one sale
+
+    private String itemId;     // id of the item
+
+    private double value;      // the price of one item
+
+    private int quantity;      // the number of the items sold
+
+    // constructor missing
+
+    public double getValue() {return value;}
+
+    public int getQuantity() {return quantity;}
+
+}
+
+```
+
+- Accessor methods or getter setter is necessary because it provide controlled access to the private fields (variables) of a class. 
+
+### (c) (i) Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and Sales classes.
+
+Note: There is no need to include mutator or accessor methods or a constructor. (4 points)
+
+![img](file:///C:/Users/Ivandito/Downloads/UML%20Diagram%20%232.png)
