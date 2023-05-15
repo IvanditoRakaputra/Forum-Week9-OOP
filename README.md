@@ -139,4 +139,4 @@ public class Sales {
 
 Note: There is no need to include mutator or accessor methods or a constructor. (4 points)
 
-![img](file:///C:/Users/Ivandito/Downloads/UML%20Diagram%20%232.png)
+![img](https://cdn.discordapp.com/attachments/1023841724935700532/1107674317040402453/UML_Diagram_2.png)
